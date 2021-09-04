@@ -1,12 +1,27 @@
 {
   "name": "provider-manager",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A management tool for managing providers",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anghootys/provider-manager.git"
+  },
+  "keywords": [
+    "provider_manager",
+    "provider",
+    "manager",
+    "providerManagement",
+    "anghootys",
+    "npm"
+  ],
+  "author": "Sajjad Anghooty <anghootys@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anghootys/provider-manager/issues"
+  },
+  "homepage": "https://github.com/anghootys/provider-manager#readme"
 }
