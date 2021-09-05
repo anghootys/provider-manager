@@ -1,6 +1,6 @@
 {
   "name": "provider-manager",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A management tool for managing providers",
   "main": "index.js",
   "scripts": {
