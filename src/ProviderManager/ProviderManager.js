@@ -1,5 +1,6 @@
 class ProviderManager {
-    constructor() {
+    constructor(options) {
+        console.log(options.config._providers);
     }
 }
 
