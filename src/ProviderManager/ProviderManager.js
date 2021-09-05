@@ -24,7 +24,7 @@ class ProviderManager {
 
 
         if (!this.ignoreErrors)
-            throw new Error(PROVIDER_NOT_REGISTERED);
+            throw new Error(PROVIDER_NOT_REGISTERED.replace("%", providerIdentifier));
 
         return false;
     }
