@@ -16,7 +16,7 @@ class ProviderManagerOptions {
         }
 
         // list of providers should be registered here
-        this.providers = options.providers;
+        this.providers = options.providers || {};
         this.ignoreErrors = !!options.ignoreErrors;
 
     }
